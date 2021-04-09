@@ -5,64 +5,114 @@
 <title>example</title>
 <link rel="stylesheet" type="text/css" href="../../css/w3.css">
 <link rel="stylesheet" type="text/css" href="../../css/user.css">
-<script type="text/javascript" src="../../js/jquery-3.6.0.min.js"></script>
 <style type="text/css">
-
+	#img{
+		float: left;
+	}
+	#intro{
+		float: left; 
+		width: 350px; 
+		height: 498px; 
+		border: 3px solid #8dc251; 
+		border-left: 0px; 
+		box-sizing: border-box;
+	}
+	.title{
+		text-align : center;
+	}
+	.title h1{
+		color: tomato; margin:50px;
+	}
+	
+	hr{
+		width: 280px; 
+		border: 1px solid #587d38;
+	}
+	
+	.cont{
+		padding-left: 50px; 
+		display: block;
+	}
+	.cont > div{
+		width: 280px; 
+		height: 30px; 
+		margin-top: 14px;
+	}
+	
+	.square{
+		float: left;
+	}
+	.sq_top {
+		width: 0px; height: 0px; 
+		border: 8px solid transparent; 
+		border-bottom-color: #587d38; 
+		margin: 0px;
+	}
+	.sq_bottom {
+		width: 0px; height: 0px; 
+		border: 8px solid transparent; 
+		border-top-color: #587d38;
+		margin: 0px;
+	}
+	
+	.text {
+		float:left; 
+		margin:0; 
+		padding-top:5px; 
+		padding-left: 10px;
+	}
 </style>
-<script type="text/javascript">
-
-</script>
 </head>
 <body>
-	<div style="float: left;">	
+	<div id="img">	
 		<img alt="profile" src="../img/avatar/img_avatar4.png">
 	</div>
-	<div style="float: left; width: 350px; height: 498px; border: 3px solid #8dc251; border-left: 0px; box-sizing: border-box;">
-		<center>	
-			<h1 style="color: tomato; margin:50px;">저를 소개합니다.</h1>
-		</center>
+	<div id="intro">
+		<div class="title">	
+			<h1>저를 소개합니다.</h1>
+		</div>
 		
-		<hr style=" width: 280px; border: 1px solid #587d38;">
+		<hr>
 		
-		<div style="padding-left: 50px; display: block;">
-			<div style="width: 280px; height: 30px; margin-top: 50px;">
-				<div style="float: left;">	
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-bottom-color: #587d38; margin: 0px;"></h4>
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-top-color: #587d38; margin: 0px;"></h4>
+		<div class="cont">
+			<div class="tex1">
+				<div class="square">	
+					<h4 class="sq_top"></h4>
+					<h4 class="sq_bottom"></h4>
 				</div>
-				<h4 style="float:left; margin:0; padding-top:5px; padding-left: 10px;">이름 : 한수연</h4>
+				<h4 class="text">이름 : 한수연</h4>
 			</div>
 			
-			<div style="width: 280px; height: 30px; margin-top: 15px;">
-				<div style="float: left; margin-left: 0px;">	
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-bottom-color: #587d38; margin: 0px;"></h4>
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-top-color: #587d38; margin: 0px;"></h4>
+			<div class="tex2">
+				<div class="square">	
+					<h4 class="sq_top"></h4>
+					<h4 class="sq_bottom"></h4>
 				</div>
-				<h4 style="float:left; margin:0; padding-top:5px; padding-left: 10px;">취미 : 늦잠자기</h4>
+				<h4 class="text">취미 : 늦잠자기</h4>
 			</div>
 			
-			<div style="width: 280px; height: 30px; margin-top: 15px;">
-				<div style="float: left;">	
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-bottom-color: #587d38; margin: 0px;"></h4>
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-top-color: #587d38; margin: 0px;"></h4>
+			<div class="tex3">
+				<div class="square">	
+					<h4 class="sq_top"></h4>
+					<h4 class="sq_bottom"></h4>
 				</div>
-				<h4 style="float:left; margin:0; padding-top:5px; padding-left: 10px;">수업참여계기 : 이직</h4>
+				<h4 class="text">수업참여계기 : 이직</h4>
 			</div>
 			
-			<div style="width: 280px; height: 30px; margin-top: 15px;">
-				<div style="float: left;">	
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-bottom-color: #587d38; margin: 0px;"></h4>
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-top-color: #587d38; margin: 0px;"></h4>
+			<div class="tex4">
+				<div class="square">	
+					<h4 class="sq_top"></h4>
+					<h4 class="sq_bottom"></h4>
 				</div>
-				<h4 style="float:left; margin:0; padding-top:5px; padding-left: 10px;">주소 : 경기도</h4>
+				<h4 class="text">주소 : 경기도</h4>
 			</div>
 			
-			<div style="width: 280px; height: 30px; margin-top: 15px;">
-				<div style="float: left;">	
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-bottom-color: #587d38; margin: 0px;"></h4>
-					<h4 style="width: 0px; height: 0px; border: 8px solid transparent; border-top-color: #587d38; margin: 0px;"></h4>
+			<div class="tex5">
+				<div class="square">	
+					<h4 class="sq_top"></h4>
+					<h4 class="sq_bottom"></h4>
 				</div>
-				<h4 style="float:left; margin:0; padding-top:5px; padding-left: 10px;">나이 : 20대</h4>
+				<h4 class="text">나이 : 20대</h4>
 			</div>
 		</div>
 	</div>
